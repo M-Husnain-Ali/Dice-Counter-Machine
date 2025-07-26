@@ -1,9 +1,5 @@
 # Dice Counter Project 🎲
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/M-Husnain-Ali/Dice-Counter-Machine/main/circuit.png" alt="Dice Counter Circuit" width="800"/>
-</div>
-
 ## Overview 📝
 
 A sophisticated digital circuit design project that accurately tracks and displays dice roll frequencies in real-time. This system integrates with existing mechanical dice-throwing equipment to provide precise counting and display functionality through LCD screens.
@@ -16,6 +12,11 @@ The circuit implements a complete dice counting system with the following key co
 - NAND gates for logic control
 - Display ICs for each frequency output
 - Binary switches for configuration
+
+## Circuit Diagram 📊
+<div align="center">
+  <img src="https://raw.githubusercontent.com/M-Husnain-Ali/Dice-Counter-Machine/main/Circuit.png" alt="Dice Counter Circuit" width="800"/>
+</div>
 
 ## Key Features ✨
 
