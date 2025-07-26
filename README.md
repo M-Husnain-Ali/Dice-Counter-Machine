@@ -1,21 +1,23 @@
-# 🎲 Dice Counter Project
+# Dice Counter Project 🎲
 
-## 📝 Overview
+<div align="center">
+  <img src="https://raw.githubusercontent.com/M-Husnain-Ali/Dice-Counter-Machine/main/circuit.png" alt="Dice Counter Circuit" width="800"/>
+</div>
+
+## Overview 📝
 
 A sophisticated digital circuit design project that accurately tracks and displays dice roll frequencies in real-time. This system integrates with existing mechanical dice-throwing equipment to provide precise counting and display functionality through LCD screens.
 
-## 📊 Circuit Diagram
+## Circuit Design 📊
 
-![Dice Counter Circuit](circuit.png)
-
-*Circuit diagram showing the complete system architecture with:*
+The circuit implements a complete dice counting system with the following key components:
 - 3-to-8 line Decoder for input processing
 - Six 4-bit Counters for frequency tracking
 - NAND gates for logic control
 - Display ICs for each frequency output
 - Binary switches for configuration
 
-## ✨ Key Features
+## Key Features ✨
 
 - Real-time dice roll frequency counting
 - Six independent LCD display outputs
@@ -24,7 +26,7 @@ A sophisticated digital circuit design project that accurately tracks and displa
 - Zero latency response time
 - Automatic sample detection and processing
 
-## 🛠️ Technical Specifications
+## Technical Specifications 🛠️
 
 ### Input System
 - 4 input lines for dice number detection
@@ -46,7 +48,7 @@ A sophisticated digital circuit design project that accurately tracks and displa
 - Clear numerical display
 - Power-efficient operation
 
-## 📋 Prerequisites
+## Prerequisites 📋
 
 ### Software Requirements
 - LogicWorks (Required to open and simulate the `.cct` circuit file)
@@ -61,13 +63,13 @@ A sophisticated digital circuit design project that accurately tracks and displa
 - Basic electronic tools for installation
 - LCD display units (6x)
 
-## 🗂️ Project Files
+## Project Files 🗂️
 
 - `Dice Counter Project.cct` - LogicWorks circuit file containing the complete digital design
 - `circuit.png` - High-resolution circuit diagram for quick reference
 - `README.md` - Project documentation and setup guide
 
-## 🔧 Installation & Setup
+## Installation & Setup 🔧
 
 1. **Software Setup**
    - Install LogicWorks on your system
@@ -95,7 +97,7 @@ A sophisticated digital circuit design project that accurately tracks and displa
    - Run a test sequence using manual inputs
    - Validate counter accuracy
 
-## 💻 Usage Instructions
+## Usage Instructions 💻
 
 1. Ensure all power connections are secure
 2. Power on the mechanical dice throwing equipment
@@ -104,7 +106,7 @@ A sophisticated digital circuit design project that accurately tracks and displa
 5. Monitor real-time results on LCD displays
 6. Record or analyze data as needed
 
-## 🔍 Troubleshooting
+## Troubleshooting 🔍
 
 Common issues and solutions:
 
@@ -117,7 +119,7 @@ Common issues and solutions:
   - Check for any missing component libraries
   - Verify all connections in the simulation
 
-## 🤝 Contributing
+## Contributing 🤝
 
 Contributions are welcome! Please follow these steps:
 
@@ -127,25 +129,37 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch
 5. Open a Pull Request
 
-## 📄 License
+## License 📄
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👥 Contributors
+## Contributors 👥
 
-- [Husnain Ali](https://github.com/M-Husnain-Ali) - *Project Lead*
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/M-Husnain-Ali">
+        <img src="https://github.com/M-Husnain-Ali.png" width="100px;" alt="Husnain Ali"/><br />
+        <sub><b>Husnain Ali</b></sub>
+      </a><br />
+      <sub>Project Lead</sub>
+    </td>
+  </tr>
+</table>
 
-## 📞 Contact
+## Contact 📞
 
 For support or inquiries:
-- Email: m.husnainali.work@gmail.com
-- GitHub: [@M-Husnain-Ali](https://github.com/M-Husnain-Ali)
+- 📧 Email: m.husnainali.work@gmail.com
+- 🌐 GitHub: [@M-Husnain-Ali](https://github.com/M-Husnain-Ali)
 
-## 🌟 Acknowledgments
+## Acknowledgments 🌟
 
 - Thanks to all contributors who have helped with testing and improvements
 - Special thanks to the mechanical equipment development team
 - LogicWorks team for providing the circuit simulation platform
 
 ---
-*Last Updated: March 2024*
+<div align="center">
+  <i>Last Updated: March 2024</i>
+</div>
