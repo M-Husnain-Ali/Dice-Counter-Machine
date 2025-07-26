@@ -4,8 +4,16 @@
 
 A sophisticated digital circuit design project that accurately tracks and displays dice roll frequencies in real-time. This system integrates with existing mechanical dice-throwing equipment to provide precise counting and display functionality through LCD screens.
 
-![Circuit Diagram Placeholder](docs/assets/circuit-diagram.png)
-*Note: Add your circuit diagram image to enhance documentation*
+## 📊 Circuit Diagram
+
+![Dice Counter Circuit](circuit.png)
+
+*Circuit diagram showing the complete system architecture with:*
+- 3-to-8 line Decoder for input processing
+- Six 4-bit Counters for frequency tracking
+- NAND gates for logic control
+- Display ICs for each frequency output
+- Binary switches for configuration
 
 ## ✨ Key Features
 
@@ -40,21 +48,39 @@ A sophisticated digital circuit design project that accurately tracks and displa
 
 ## 📋 Prerequisites
 
+### Software Requirements
+- LogicWorks (Required to open and simulate the `.cct` circuit file)
+  - Download LogicWorks from official sources
+  - Minimum version: 5.0 or higher recommended
+  - Windows/macOS compatible
+
+### Hardware Requirements
 - Mechanical dice throwing equipment
 - Dice counter with 5-line output interface
 - Power supply (5V DC)
 - Basic electronic tools for installation
 - LCD display units (6x)
 
+## 🗂️ Project Files
+
+- `Dice Counter Project.cct` - LogicWorks circuit file containing the complete digital design
+- `circuit.png` - High-resolution circuit diagram for quick reference
+- `README.md` - Project documentation and setup guide
+
 ## 🔧 Installation & Setup
 
-1. **Hardware Setup**
+1. **Software Setup**
+   - Install LogicWorks on your system
+   - Open `Dice Counter Project.cct` using LogicWorks
+   - Verify all components are properly loaded
+
+2. **Hardware Setup**
    - Mount the circuit board in a suitable enclosure
    - Connect power supply (5V DC)
    - Attach LCD displays to designated ports
    - Connect dice counter output to input terminals
 
-2. **System Integration**
+3. **System Integration**
    ```
    Input Connections:
    - PIN 1-4: Dice number input
@@ -63,7 +89,7 @@ A sophisticated digital circuit design project that accurately tracks and displa
    - VCC: 5V power supply
    ```
 
-3. **Testing**
+4. **Testing**
    - Power on the system
    - Verify all LCD displays are functional
    - Run a test sequence using manual inputs
@@ -86,6 +112,10 @@ Common issues and solutions:
 - **Incorrect Counts**: Verify input signal timing and connections
 - **System Reset**: Use the manual reset switch if counting errors occur
 - **Display Flickering**: Check power supply stability
+- **Circuit Simulation Issues**: 
+  - Ensure LogicWorks is properly installed
+  - Check for any missing component libraries
+  - Verify all connections in the simulation
 
 ## 🤝 Contributing
 
@@ -115,6 +145,7 @@ For support or inquiries:
 
 - Thanks to all contributors who have helped with testing and improvements
 - Special thanks to the mechanical equipment development team
+- LogicWorks team for providing the circuit simulation platform
 
 ---
 *Last Updated: March 2024*
