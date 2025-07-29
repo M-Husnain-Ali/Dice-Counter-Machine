@@ -13,11 +13,6 @@ The circuit implements a complete dice counting system with the following key co
 - Display ICs for each frequency output
 - Binary switches for configuration
 
-## Circuit Diagram 📊
-<div align="center">
-  <img src="https://raw.githubusercontent.com/M-Husnain-Ali/Dice-Counter-Machine/main/Circuit.png" alt="Dice Counter Circuit" width="800"/>
-</div>
-
 ## Key Features ✨
 
 - Real-time dice roll frequency counting
